@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "SUBHAN-MAGIC",
+  "name": "subhan-magic",
   "main": "worker.mjs",
   "compatibility_date": "2029-10-19",
   "workers_dev": true,
