@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "SUBHAN-MAGIC",
+  "main": "worker.mjs",
+  "compatibility_date": "2029-10-19",
+  "workers_dev": true,
+  "preview_urls": false,
+  "send_metrics": false,
+  "rules": [
+    {
+      "type": "Text",
+      "globs": [
+        "**/*.lua"
+      ],
+      "fallthrough": true
+    }
+  ]
+}
